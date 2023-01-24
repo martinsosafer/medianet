@@ -6,6 +6,14 @@ const NavBar = () => {
       <Nav>
         <NavBarContainer>
           <NavLogo>Medianet</NavLogo>
+          <MobileIcon>
+            <FaBars />
+          </MobileIcon>
+          <NavMenu>
+            <NavItem>
+              <NavLinks to="Sobre Nosotros">Sobre Nosotros</NavLinks>
+            </NavItem>
+          </NavMenu>
         </NavBarContainer>
       </Nav>
     </>
