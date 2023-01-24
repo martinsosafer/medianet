@@ -23,5 +23,5 @@ const SideBar = () => {
     </SideBarContainer>
   );
 };
-//cambios a sidebar
+//SideBar es el el menu desplegable que vemos en dispositivos mobiles
 export default SideBar;
