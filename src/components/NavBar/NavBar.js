@@ -10,13 +10,13 @@ import {
   NavLinks,
 } from "./NavBarElements";
 
-const NavBar = () => {
+const NavBar = ({ toogle }) => {
   return (
     <>
       <Nav>
         <NavBarContainer>
           <NavLogo>Medianet</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toogle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
