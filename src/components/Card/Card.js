@@ -15,7 +15,7 @@ const Card = () => {
         <h1 id="name">25 Megas Internet</h1>
         <div id="conjuntoLi">
           <h5>
-            <li id="liCard">- Misma velocidad carga</li>
+            <li id="liCard">- Misma velocidad carga y desarga</li>
             <li id="liCard">- Instalación bonificada</li>
           </h5>
           <h5>
@@ -60,7 +60,7 @@ const Card = () => {
         <h1 id="precio">$1200</h1>
         <div id="conjuntoLi">
           <h5>
-            <li id="liCard">- Misma velocidad carga</li>
+            <li id="liCard">- Misma velocidad carga y descarga</li>
             <li id="liCard">- Instalación bonificada</li>
           </h5>
           <h5>
@@ -105,7 +105,7 @@ const Card = () => {
         <h1 id="precio">$1700</h1>
         <div id="conjuntoLi">
           <h5>
-            <li id="liCard">- Misma velocidad carga</li>
+            <li id="liCard">- Misma velocidad carga y descarga</li>
             <li id="liCard">- Instalación bonificada</li>
           </h5>
           <h5>
