@@ -1,25 +1,36 @@
-
-#Cardbody{
+#Cardbody {
+  margin: 0 -5px;
   background-color: black;
 }
-#titulocard{
-  margin-left: 25%;
+#Cardbody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#titulocard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#column {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 #card {
-  width: 357px;
-  height: 430px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin:3%;
+  text-align: center;
   color: white;
   background: #4dc329;
   border-radius: 45px;
   transition: all 0.3s;
-  margin: 20px 30px 20px 30px;
-  float: left;
-  margin-left: 89px;
-  margin-top: 2%;
 }
 
 #card:hover {
-  transform: scale(1);
+  transform: scale(0.9);
   background: linear-gradient(
     60deg,
     #50c22d,
@@ -29,32 +40,32 @@
     #50c22d,
     #92f892
   );
-  border-radius: calc(2 * var(--borderWidth));
-  z-index: -1;
-  animation: animatedgradient 5s ease infinite;
+  transform: scale(0.98);
+  border-radius: 15px;
+  border: none;
 }
 #name {
-  margin-left: 15px;
-  margin-top: 50px;
+  text-align: center;
+  margin-top: 10%;
 }
 #name:hover {
   outline-offset: 80px;
   text-shadow: 1px 1px 6px rgb(255, 255, 255);
   color: rgba(71, 126, 232, 0.7);
   outline-color: rgba(71, 126, 232, 0);
-  }
-  #precio{
-    margin-left: 30%;
-    margin-top: 15px;
-  }
-  #precio:hover {
-    outline-offset: 80px;
-    text-shadow: 1px 1px 6px rgb(255, 255, 255);
-    color: rgba(71, 126, 232, 0.7);
-    outline-color: rgba(0, 0, 0, 0);
-    }
+}
+#precio {
+  text-align: center;
+  margin-top: 3%;
+}
+#precio:hover {
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px rgb(255, 255, 255);
+  color: rgba(71, 126, 232, 0.7);
+  outline-color: rgba(0, 0, 0, 0);
+}
 #conjuntoLi {
-  margin-top: 20px;
+  align-items: center;
 }
 #conjuntoLi:hover {
   transition: 1s ease-in-out;
@@ -62,21 +73,21 @@
   border-radius: 50px;
 }
 #liCard {
+  align-items: center;
   padding: 10px 50px 15px;
 }
 
-
 #imagenes {
-  margin-top: 40px;
-  margin-left: 50px;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 #iconoCard {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 5%;
 }
 #iconoCard:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-    transform: scale(1.5, 1.5);
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.5, 1.5);
 }
 #contactanos {
   width: 140px;
@@ -89,14 +100,5 @@
   background: #37ee0a;
   border-color: rgba(122, 215, 255, 0.84);
   border-radius: 20px;
-  margin-top: 5%;
-}
-#contactanos:hover {
-  background: linear-gradient(
-    60deg,
-    #000000,
-    
-
-    
-  );
+  
 }
