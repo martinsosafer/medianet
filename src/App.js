@@ -13,8 +13,8 @@ function App() {
     <Router>
       <SideBar />
       <Navbar />
-      <Card/>
       <Home />
+      <Card/>
     </Router>
   );
 }
