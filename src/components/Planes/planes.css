@@ -27,12 +27,6 @@ body {
     font-size: 3rem;
     color: #fff;
     text-shadow: #99d50f 1px 0 10px;
-    @media screen and (max-width: 768px) {
-      font-size: 40px;
-    }
-    @media screen and (max-width: 480px) {
-      font-size: 32 px;
-    } ;
     margin: 5px;
     
   }
