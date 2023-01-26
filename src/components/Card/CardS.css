@@ -136,8 +136,8 @@ body .container .card .box .content h1 {
 }
 body .container .pCard{
 
-  color: #fff;
-  text-shadow: #99d50f 1px 0 10px;
+  color: rgba(255, 255, 255, 0.833);
+  text-shadow: #000000 1px 0 10px;
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
