@@ -20,11 +20,11 @@ const Home = () => {
       <SideBar isOpen={isOpen} toogle={toogle} />
       <NavBar toogle={toogle} />
       <HeroSection />
+      <InfoSections {...homeObjOne} />
+      <InfoSections {...homeObjTwo}></InfoSections>
       <Planes />
       <Card />
       <SectionIconos />
-      <InfoSections {...homeObjOne} />
-      <InfoSections {...homeObjTwo}></InfoSections>
      <FooterSection></FooterSection>
       <div class="whatsapp-btn">
         <a href="https://wa.me/573148880850" target="_blank">

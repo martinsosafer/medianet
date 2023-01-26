@@ -1,7 +1,7 @@
 // este es el archivo a donde puedo pasarle todos los datos sin tener que hardcodearlos la forma de hacer las infosections reutilizables
 
 export const homeObjOne = {
-  id: "sobreNosotros",
+  id: "Sobrenosotros",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -18,7 +18,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "info",
+  id: "Info",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,

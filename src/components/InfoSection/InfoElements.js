@@ -50,7 +50,7 @@ padding-top:0;
 padding-bottom:60px; 
 `;
 export const Topline = styled.p`
-  color: #01bf71;
+  color: #77eb34;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
