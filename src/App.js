@@ -7,6 +7,7 @@ import Card from "./components/Card/Card"
 import Home from "./pages/home";
 import SectionIconos from "./components/SectionIconos/SectionIconos";
 import Planes from "./components/Planes/Planes"
+import WhatsappButton from "./components/Whatsapp/WhatsappButton";
 
 
 //no hace falta agregar navbar/index, pues se sobreentiende que lo busca en index cuando no cambio el nombre de la carpeta
@@ -16,6 +17,7 @@ function App() {
       <SideBar />
       <Navbar />
       <Home />
+      <WhatsappButton/>
       <Planes/>
       <Card/>
       <SectionIconos/>
