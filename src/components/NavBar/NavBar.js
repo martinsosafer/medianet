@@ -1,5 +1,6 @@
-import React from "react";
+import React ,{useState} from "react";
 import { FaBars } from "react-icons/fa";
+import { Link } from "react-scroll";
 import {
   Nav,
   NavBarContainer,
@@ -11,6 +12,7 @@ import {
 } from "./NavBarElements";
 
 const NavBar = ({ toogle }) => {
+  
   return (
     <>
       <Nav>
@@ -21,13 +23,13 @@ const NavBar = ({ toogle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="SobreNosotros">Sobre Nosotros</NavLinks>
+              <NavLinks to="Sobrenosotros" smooth={true} duration={1000}>Sobre Nosotros</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Planes">Planes</NavLinks>
+              <NavLinks to="Planes" smooth={true} duration={1500}>Planes</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="Contacto">Contacto</NavLinks>
+              <NavLinks to="Contacto" smooth={true} duration={1500}>Contacto</NavLinks>
             </NavItem>
           </NavMenu>
         </NavBarContainer>

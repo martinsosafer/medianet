@@ -7,7 +7,7 @@ const Planes = () =>{
 
     return(
         <div class="container">
-        <h1 class="nuestrosPlanes">NUESTROS PLANES</h1>
+        <h1 class="nuestrosPlanes" id="Planes">NUESTROS PLANES</h1>
         </div>
     )
 }

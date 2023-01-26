@@ -33,6 +33,8 @@ const HeroSection = () => {
         <HeroBtnWrapper>
           <Button
             to="Planes"
+            smooth={true}
+            duration={1200}
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"

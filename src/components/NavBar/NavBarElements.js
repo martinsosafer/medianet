@@ -27,7 +27,7 @@ export const NavBarContainer = styled.div`
   max-width: 1100px;
 `;
 export const NavLogo = styled(LinkRouter)`
-  color: #01bf71;
+  color: #77eb34;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
@@ -75,6 +75,6 @@ export const NavLinks = styled(LinkScroll)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #77eb34;
   }
 `;
