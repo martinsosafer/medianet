@@ -8,6 +8,7 @@
   clear: both;
 }
 #titulocard {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -22,7 +23,7 @@
   width: 24%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  margin:3%;
+  margin: 3%;
   text-align: center;
   color: white;
   background: #4dc329;
@@ -45,15 +46,28 @@
   border-radius: 15px;
   border: none;
 }
+#h3{
+  background-color: rgba(0, 0, 0, 0.556);
+  border-radius: 15px;
+}
 #name {
   text-align: center;
   margin-top: 10%;
+  --interval: 1s;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 5s infinite;
 }
 #name:hover {
   outline-offset: 80px;
   text-shadow: 1px 1px 6px rgb(255, 255, 255);
   color: rgba(71, 126, 232, 0.7);
   outline-color: rgba(71, 126, 232, 0);
+}
+@keyframes flicker {
+  50% {
+    color: rgba(71, 126, 232, 0.7);
+    filter: saturate(200%) hue-rotate(20deg);
+  }
 }
 #precio {
   text-align: center;
@@ -66,7 +80,10 @@
   outline-color: rgba(0, 0, 0, 0);
 }
 #conjuntoLi {
+  margin-right: 15%;
+  margin-left: 15%;
   align-items: center;
+  
 }
 #conjuntoLi:hover {
   transition: 1s ease-in-out;
@@ -78,13 +95,21 @@
   padding: 10px 50px 15px;
 }
 
+#iconos {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5;
+  
+}
 #imagenes {
   display: flex;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-right: 8%;
+ 
+  
 }
-#iconoCard {
-  margin: 5%;
+#iconoCard{
+  margin:2%;
 }
 #iconoCard:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
@@ -97,9 +122,11 @@
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-left: 45%;
+  margin-left: 35%;
   background: #37ee0a;
   border-color: rgba(122, 215, 255, 0.84);
   border-radius: 20px;
-  
+}
+#botonCard{
+  margin-top: 5%;
 }
