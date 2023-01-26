@@ -13,7 +13,12 @@ const Card = () => {
       </div>
       <div id="column">
         <div id="card">
-          <h1 id="name">25 Megas Internet</h1>
+          <h3 id="h3">Fibra optica</h3>
+          <h1 id="name">25 Megas </h1>
+          <img src="https://cdn-icons-png.flaticon.com/512/5756/5756438.png" 
+          alt="velocidad"
+          width={50}
+          height={50}/>
           <div id="conjuntoLi">
             <h5>
               <li id="liCard">- Misma velocidad carga y desarga</li>
@@ -24,40 +29,16 @@ const Card = () => {
               <li id="liCard">- Incluidos packs premium</li>{" "}
             </h5>
           </div>
-          <div id="imagenes">
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/5556/5556367.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/8313/8313119.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/1321/1321688.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/159/159599.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-          </div>
+          
         </div>
 
         <div id="card">
-          <h1 id="name">50 Megas Internet</h1>
+        <h3 id="h3">Fibra optica</h3>
+          <h1 id="name">50 Megas</h1>
+          <img src="https://cdn-icons-png.flaticon.com/512/5756/5756438.png" 
+          alt="velocidad"
+          width={50}
+          height={50}/>
           <h1 id="precio">$1200</h1>
           <div id="conjuntoLi">
             <h5>
@@ -69,40 +50,15 @@ const Card = () => {
               <li id="liCard">- Incluidos packs premium</li>{" "}
             </h5>
           </div>
-          <div id="imagenes">
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/5556/5556367.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/8313/8313119.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/1321/1321688.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/159/159599.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-          </div>
         </div>
 
         <div id="card">
-          <h1 id="name">100 Megas Internet</h1>
+        <h3 id="h3">Fibra optica</h3>
+          <h1 id="name">100 Megas</h1>
+          <img src="https://cdn-icons-png.flaticon.com/512/5756/5756438.png" 
+          alt="velocidad"
+          width={50}
+          height={50}/>
           <h1 id="precio">$1700</h1>
           <div id="conjuntoLi">
             <h5>
@@ -114,42 +70,106 @@ const Card = () => {
               <li id="liCard">- Incluidos packs premium</li>{" "}
             </h5>
           </div>
-          <div id="imagenes">
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/5556/5556367.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/8313/8313119.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/1321/1321688.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-            <img
-              id="iconoCard"
-              src="https://cdn-icons-png.flaticon.com/512/159/159599.png"
-              alt="fibra optica"
-              width={40}
-              height={40}
-            />
-          </div>
         </div>
         
       </div>
+      <div id="iconos">
+      <div id="imagenes">
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/tecnologia_wqufxu.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/internet_kvmd6h.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/soporte-tecnico_ndtfah.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/wifi_enkubf.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+          </div>
+          <div id="imagenes">
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/tecnologia_wqufxu.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/internet_kvmd6h.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/soporte-tecnico_ndtfah.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/wifi_enkubf.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+          </div>
+          <div id="imagenes">
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/tecnologia_wqufxu.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/internet_kvmd6h.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/soporte-tecnico_ndtfah.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+            <img
+              id="iconoCard"
+              src="https://res.cloudinary.com/dsjsbp6qy/image/upload/v1674704181/wifi_enkubf.png"
+              alt="fibra optica"
+              width={50}
+              height={50}
+            />
+          </div>
+      </div>
+      <div id="botonCard">
         <a href="https://wa.me/573148880850" target="_blank">
           <button id="contactanos">Contactanos!</button>
         </a>
+        </div>
     </div>
   );
 };
