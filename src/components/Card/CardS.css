@@ -1,132 +1,151 @@
-#Cardbody {
-  margin: 0 -5px;
-  background-color: black;
-}
-#Cardbody:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-#titulocard {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-#column {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-#card {
-  width: 24%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  margin: 3%;
-  text-align: center;
-  color: white;
-  background: #4dc329;
-  border-radius: 45px;
-  transition: all 0.3s;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
 }
 
-#card:hover {
-  transform: scale(0.9);
-  background: linear-gradient(
-    60deg,
-    #50c22d,
-    #92f892,
-    #50c22d,
-    #92f892,
-    #50c22d,
-    #92f892
-  );
-  transform: scale(0.98);
-  border-radius: 15px;
-  border: none;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #000000;
 }
-#h3{
-  background-color: rgba(0, 0, 0, 0.556);
-  border-radius: 15px;
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
 }
-#name {
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(255, 250, 250, 0.264),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.21),
+    5px 5px 15px #99d50f, -5px -5px 15px #99d50f;
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+  
+}
+
+
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #11d131e9;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  
+}
+
+body .container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+body .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #9ad50f41;
+}
+
+body .container .card .box .content {
+  padding: 20px;
   text-align: center;
-  margin-top: 10%;
-  --interval: 1s;
+}
+
+body .container .card .box .content h2 {
+  position: absolute;
+  top: 2px;
+  right: 55px;
+  font-size: 1.6rem;
+  color:white;
+  text-shadow: #99d50f 1px 0 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 32 px;
+  } ;
+}
+
+body .container .card .box .content h3 {
+  margin-top:10%;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: #99d50f 1px 0 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 32 px;
+  } ;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 50px;
+  --interval: 1.8s;
   filter: saturate(60%);
   animation: flicker steps(100) var(--interval) 5s infinite;
 }
-#name:hover {
+body .container .card .box .content h3 :hover {
   outline-offset: 80px;
   text-shadow: 1px 1px 6px rgb(255, 255, 255);
-  color: rgba(71, 126, 232, 0.7);
-  outline-color: rgba(71, 126, 232, 0);
+  outline-color: rgb(0, 0, 0);
 }
 @keyframes flicker {
   50% {
-    color: rgba(71, 126, 232, 0.7);
+    color: #00913ad5;
     filter: saturate(200%) hue-rotate(20deg);
   }
 }
-#precio {
-  text-align: center;
-  margin-top: 3%;
+
+
+body .container .card .box .content h1 {
+  margin-top: -10%;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow:  1px 0 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 32 px;
+  } ;
+  z-index: 1;
+  transition: 0.5s;
 }
-#precio:hover {
-  outline-offset: 80px;
-  text-shadow: 1px 1px 6px rgb(255, 255, 255);
-  color: rgba(71, 126, 232, 0.7);
-  outline-color: rgba(0, 0, 0, 0);
-}
-#conjuntoLi {
-  margin-right: 15%;
-  margin-left: 15%;
-  align-items: center;
+body .container .pCard{
+
+  color: #fff;
+  text-shadow: #99d50f 1px 0 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 32 px;
+  } ;
   
-}
-#conjuntoLi:hover {
-  transition: 1s ease-in-out;
-  background: #00000083;
-  border-radius: 50px;
-}
-#liCard {
-  align-items: center;
-  padding: 10px 50px 15px;
+  margin: 8px;
+  
 }
 
-#iconos {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 5;
-  
-}
-#imagenes {
-  display: flex;
-  margin-left: 10%;
-  margin-right: 8%;
- 
-  
-}
-#iconoCard{
-  margin:2%;
-}
-#iconoCard:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-  transform: scale(1.5, 1.5);
-}
-#contactanos {
-  width: 140px;
-  height: 41px;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin-left: 35%;
-  background: #37ee0a;
-  border-color: rgba(122, 215, 255, 0.84);
-  border-radius: 20px;
-}
-#botonCard{
-  margin-top: 5%;
-}
