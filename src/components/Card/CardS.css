@@ -25,7 +25,7 @@
   margin:3%;
   text-align: center;
   color: white;
-  background: #4dc329;
+  background: #01bf71;
   border-radius: 45px;
   transition: all 0.3s;
 }
@@ -35,11 +35,11 @@
   background: linear-gradient(
     60deg,
     #50c22d,
-    #92f892,
+    #01bf71,
     #50c22d,
-    #92f892,
+    #01bf71,
     #50c22d,
-    #92f892
+    #01bf71
   );
   transform: scale(0.98);
   border-radius: 15px;
@@ -93,13 +93,16 @@
 #contactanos {
   width: 140px;
   height: 41px;
-  color: #fff;
+  color: black;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-left: 45%;
-  background: #37ee0a;
+  background: #01bf71;
   border-color: rgba(122, 215, 255, 0.84);
   border-radius: 20px;
   
+}
+#contactanos:hover{
+  background:#fff;
 }

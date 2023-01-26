@@ -27,7 +27,7 @@ export const NavBarContainer = styled.div`
   max-width: 1100px;
 `;
 export const NavLogo = styled(LinkRouter)`
-  color: red;
+  color: #01bf71;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
