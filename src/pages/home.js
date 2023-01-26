@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import FooterSection from "../components/Footer/FooterSection";
 import HeroSection from "../components/HeroSection/HeroSection";
+import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
+import InfoSections from "../components/InfoSection/InfoSections";
 import NavBar from "../components/NavBar/NavBar";
 import SideBar from "../components/SideBar/SideBar";
 import SectionIconos from "../components/SectionIconos/SectionIconos";
@@ -20,6 +23,9 @@ const Home = () => {
       <Planes />
       <Card />
       <SectionIconos />
+      <InfoSections {...homeObjOne} />
+      <InfoSections {...homeObjTwo}></InfoSections>
+     <FooterSection></FooterSection>
       <div class="whatsapp-btn">
         <a href="https://wa.me/573148880850" target="_blank">
           <img
@@ -33,5 +39,5 @@ const Home = () => {
     </>
   );
 };
-
+ 
 export default Home;
