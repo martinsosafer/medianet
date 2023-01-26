@@ -30,7 +30,7 @@ body .container .card {
   height: 440px;
   box-shadow: inset 5px 5px 5px rgba(255, 250, 250, 0.264),
     inset -5px -5px 15px rgba(255, 255, 255, 0.21),
-    5px 5px 15px #99d50f, -5px -5px 15px #99d50f;
+    5px 5px 15px #77eb34, -5px -5px 15px #77eb34;
   border-radius: 15px;
   margin: 30px;
   transition: 0.5s;
@@ -44,7 +44,7 @@ body .container .card .box {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #11d131e9;
+  background: #77eb34;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -65,7 +65,7 @@ body .container .card .box:before {
   left: 0;
   width: 50%;
   height: 100%;
-  background: #9ad50f41;
+  background: #f1f7ed36;
 }
 
 body .container .card .box .content {
@@ -136,8 +136,8 @@ body .container .card .box .content h1 {
 }
 body .container .pCard{
 
-  color: #fff;
-  text-shadow: #99d50f 1px 0 10px;
+  color: rgba(255, 255, 255, 0.833);
+  text-shadow: #000000 1px 0 10px;
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
