@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FooterSection from "../components/Footer/FooterSection";
 import HeroSection from "../components/HeroSection/HeroSection";
 import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
 import InfoSections from "../components/InfoSection/InfoSections";
@@ -17,6 +18,7 @@ const Home = () => {
       <HeroSection />
       <InfoSections {...homeObjOne} />
       <InfoSections {...homeObjTwo}></InfoSections>
+     <FooterSection></FooterSection>
     </>
   );
 };

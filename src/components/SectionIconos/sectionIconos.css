@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #000000;
+  }
+  
+  body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 40px 0;
+  }
+  
+  .iconos {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+  
+  body .container .iconoCard {
+    position: relative;
+    margin: 5px;
+    color:white;
+  }
+  body .container .p{
+
+    color: #fff;
+    text-shadow: #99d50f 1px 0 10px;
+    @media screen and (max-width: 768px) {
+      font-size: 40px;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 32 px;
+    } ;
+    margin: 5px;
+    
+  }
+  .icono-p {
+   margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .icono-p {
+      flex-wrap: wrap;
+    }
+  }
