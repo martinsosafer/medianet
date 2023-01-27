@@ -28,7 +28,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <MedianetLogo src={Logo}></MedianetLogo>
-        <HeroH1>Tu mejor servicio de Internet</HeroH1>
+        <HeroH1>Conexión al siguiente nivel</HeroH1>
         <HeroP>Comunicate hoy para tener los mejores precios </HeroP>
         <HeroBtnWrapper>
           <Button
