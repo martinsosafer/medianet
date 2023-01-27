@@ -73,7 +73,22 @@ body .container .card .box .content {
 }
 
 body .container .card .box .content .h2 {
-  margin-top: -1rem;
+  margin-top: -rem;
+  right: 55px;
+  font-size: 1.5rem;
+  background-color: #00000000;
+  border-bottom: 3px solid #99d50f;
+  color:white;
+  text-shadow: #99d50f 1px 0 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 32 px;
+  } ;
+}
+body .container .card .box .content .h22 {
+  margin-top: -4rem;
   right: 55px;
   font-size: 1.5rem;
   background-color: #00000000;
@@ -116,6 +131,24 @@ body .container .card .box .content h3 :hover {
     color: #00913ad5;
     filter: saturate(200%) hue-rotate(20deg);
   }
+}
+body .container .card .box .content .h3 {
+  margin-top:7%;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: #99d50f 1px 0 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 32 px;
+  } ;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 50px;
+  --interval: 1.8s;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 5s infinite;
 }
 
 
