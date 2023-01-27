@@ -32,7 +32,7 @@ const Card = () => {
         <div class="box">
           <div class="content">
             <h2 class="h2">Tv Premium</h2>
-            <h3>+ TV</h3>
+            <h3>PlAN TV</h3>
             <h1>$3100 X MES</h1>
             <p class="pCard">✓ Instalación bonificada.</p>
             <p class="pCard">✓ Packs premium incluidos sin limite de tiempo</p>

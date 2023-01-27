@@ -22,12 +22,12 @@ const Home = () => {
       <HeroSection />
       <InfoSections {...homeObjOne} />
       <InfoSections {...homeObjTwo}></InfoSections>
-      <Planes />
-      <Card />
-      <SectionIconos />
+      * <Planes />
+      <Card /> *
+      * <SectionIconos /> 
      <FooterSection></FooterSection>
       <div class="whatsapp-btn">
-        <a href="https://wa.me/573148880850" target="_blank">
+        <a href="https://wa.me/542616597694" target="_blank">
           <img
             src="https://cdn-icons-png.flaticon.com/512/1383/1383269.png"
             alt="WhatsApp"
