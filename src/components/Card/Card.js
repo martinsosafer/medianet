@@ -7,7 +7,7 @@ const Card = () => {
       <div class="card">
         <div class="box">
           <div class="content">
-            <h2 class="h2">Fibra optica</h2>
+            <h2 class="h22">Fibra optica</h2>
           
             <h3>50 MEGAS</h3>
             <h1> $1200</h1>
@@ -20,7 +20,7 @@ const Card = () => {
       <div class="card">
         <div class="box">
           <div class="content">
-            <h2 class="h2"> Fibra Optica </h2>
+            <h2 class="h22"> Fibra Optica </h2>
             <h3>100 MEGAS</h3>
             <h1>$1700</h1>
             <p class="pCard">✓ Instalación bonificada.</p>
@@ -32,8 +32,8 @@ const Card = () => {
         <div class="box">
           <div class="content">
             <h2 class="h2">Tv Premium</h2>
-            <h3>+ TV</h3>
-            <h1>$3100 X MES</h1>
+            <h3 class="h3">Plan TV + 50 MEGAS</h3>
+            <h1>$4300</h1>
             <p class="pCard">✓ Instalación bonificada.</p>
             <p class="pCard">✓ Packs premium incluidos sin limite de tiempo</p>
           </div>
