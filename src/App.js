@@ -4,8 +4,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/NavBar/NavBar";
 import SideBar from "./components/SideBar/SideBar";
 import Home from "./pages/home";
-import WhatsappButton from "./components/Whatsapp/WhatsappButton";
-
 
 
 
