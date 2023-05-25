@@ -21,7 +21,7 @@ const Home = () => {
       <NavBar toogle={toogle} />
       <HeroSection />
       <InfoSections {...homeObjOne} />
-      <InfoSections {...homeObjTwo}></InfoSections>
+      <InfoSections {...homeObjTwo}/>
       * <Planes />
       <Card /> *
       * <SectionIconos /> 

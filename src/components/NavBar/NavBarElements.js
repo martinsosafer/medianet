@@ -13,8 +13,8 @@ export const Nav = styled.nav`
   top:0;
   z-index:10;
 
-  @media screen and (max-width:960 px) {
-    transition:0.8s all ease:
+  @media screen and (max-width:960px) {
+    transition:0.8s all ease;
   }
 `;
 export const NavBarContainer = styled.div`
